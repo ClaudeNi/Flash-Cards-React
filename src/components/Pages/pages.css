@@ -1,0 +1,25 @@
+.manager-pages-items-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    max-height: 100%;
+}
+
+.manager-page-container {
+    display: flex;
+    max-height: 90%;
+}
+
+.game-manager-container {
+    padding: 1rem;
+    width: 10vw;
+    height: fit-content;
+}
+
+.manager-page-input-container {
+    padding: 3rem;
+    height: fit-content;
+}

@@ -1,0 +1,30 @@
+.game-manager-container {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px #ccc solid;
+    border-radius: 20px;
+    margin: 0.5rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.game-manager-container img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.game-manager-container .game-manager-name {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.btns-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

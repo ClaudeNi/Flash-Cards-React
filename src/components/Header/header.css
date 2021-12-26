@@ -1,0 +1,19 @@
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background: #fff;
+}
+
+.header-left,
+.header-right {
+    display: flex;
+}
+
+.header-item {
+    margin: 0 1rem;
+    color: #000;
+}
